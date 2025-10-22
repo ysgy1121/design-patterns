@@ -1,5 +1,8 @@
-import 'package:decorator/decorator.dart' as decorator;
+import 'package:decorator/beverage/decaf.dart';
+import 'package:decorator/condiment/milk.dart';
+import 'package:decorator/condiment/mocha.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${decorator.calculate()}!');
+  var beverage = Milk(Mocha(Decaf()));
+  print('${beverage.getDescription()} ${beverage.cost()}');
 }
