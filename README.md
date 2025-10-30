@@ -27,6 +27,8 @@ Head First Design Patterns 책을 읽고 스터디를 진행하면서 이해가 
 - **데코레이터 패턴 (Decorator Pattern)**: 주어진 상황 및 용도에 따라 어떤 객체에 책임을 덧붙이는 패턴
 - **컴포지트 패턴 (Composite Pattern)**: 객체들을 트리 구조로 구성하여 개별 객체와 복합 객체를 동일한 방식으로 다룰 수 있게 하는 패턴
 
-
+### Week 04
+- **추상 팩토리 패턴 (Abstract Factory Pattern)**: 서로 의존적인 객체들로 이루어진 제품군을 생성하기위한 팩토리 패턴
+- **팩토리 메소드 패턴 (Factory Method Pattern)**: 객체를 생성하기 위한 인터페이스를 만들고, 서브클래스에서 결정하여 인스턴스 만드는 팩토리 패턴
 
 
